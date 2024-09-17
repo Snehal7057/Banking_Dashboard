@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Dashboard</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>State Bank Of India </h1>
+        </header>
+
+        <main class="main-content">
+            <section class="balance-info">
+                <h2>Current Balance: <span id="balance">$1,000</span></h2>
+            </section>
+
+            <section class="transaction-section">
+                <div class="deposit-section">
+                    <label for="deposit-amount">Deposit Amount:</label>
+                    <input type="number" id="deposit-amount" placeholder="Enter amount">
+                    <button id="deposit-button">Deposit</button>
+                </div>
+
+                <div class="withdrawal-section">
+                    <label for="withdraw-amount">Withdrawal Amount:</label>
+                    <input type="number" id="withdraw-amount" placeholder="Enter amount">
+                    <button id="withdraw-button">Withdraw</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Contact Us: contact@sbi.com | Follow us: <a href="#">Facebook</a>, <a href="#">Twitter</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
